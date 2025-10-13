@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GRUPO YEKA | Sitio Oficial</title>
+    <meta
+      name="description"
+      content="Explora la línea completa de vehículos GRUPO YEKA: sedanes, SUVs y pickups. Promociones, pruebas de manejo y cotizador."
+    />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="js" href="script.js" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container nav">
+        <a class="brand" href="#">
+          <span class="brand-logo" aria-hidden="true"></span>
+          <span class="brand-name">GRUPO YEKA</span>
+        </a>
+        <nav class="menu" aria-label="Principal">
+          <a href="#planes">Planes</a>
+          <a href="#promos">Promociones</a>
+          <a href="#descubre">Descubre</a>
+          <a href="#contacto">Contacto</a>
+          <a href="#aviso_privacidad">Aviso de Privacidad</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero / Carrusel -->
+    <section class="hero">
+      <div class="container slides" id="slides">
+        <!-- Slide 1 -->
+        <article class="slide active">
+          <div class="slide-inner">
+            <div class="copy">
+              <div class="badge">Plan Dínamico</div>
+              <h1>¡Contrata Ahora!</h1>
+              <p>
+                Pagos adaptables: La opción para quien vive sobre la marcha.
+              </p>
+              <div style="display: flex; gap: 10px; margin-top: 6px">
+                <a class="btn" href="#planes">Explorar modelo</a>
+              </div>
+            </div>
+            <div class="media">
+              <img
+                src="assets/virtus_gris.png"
+                alt="SUV híbrida plateada en carretera nocturna"
+              />
+            </div>
+          </div>
+        </article>
+        <!-- Slide 2 -->
+        <article class="slide">
+          <div class="slide-inner">
+            <div class="copy">
+              <div class="badge">Plan Estandar</div>
+              <h1>¡Contrata ahora!</h1>
+              <p>
+                Para quienes cuidan su historial y buscan libertad de pago.
+              </p>
+              <div style="display: flex; gap: 10px; margin-top: 6px">
+                <a class="btn" href="#planes">Ver versiones</a>
+                <a class="btn outline" href="#promos">Promociones</a>
+              </div>
+            </div>
+            <div class="media">
+              <img
+                src="assets/pickup_negra.png"
+                alt="Pickup negra sobre terreno rocoso"
+              />
+            </div>
+          </div>
+        </article>
+        <!-- Slide 3 -->
+        <article class="slide">
+          <div class="slide-inner">
+            <div class="copy">
+              <div class="badge">Plan Clasico</div>
+              <h1>¡Contrata Ahora!</h1>
+              <p>
+                La opción tradicional: evaluación crediticia y financiamiento
+              estable.
+              </p>
+              <div style="display: flex; gap: 10px; margin-top: 6px">
+                <a class="btn" href="#planes">Configurar</a>
+                <a class="btn outline" href="#descubre">Descubrir más</a>
+              </div>
+            </div>
+            <div class="media">
+              <img
+                src="assets/spark_azul.png"
+                alt="Coupé eléctrico azul en estudio"
+              />
+            </div>
+          </div>
+        </article>
+        <div class="dots" aria-label="Indicadores del carrusel"></div>
+      </div>
+    </section>
+
+    <!-- Línea de planes -->
+    <section class="section container" id="planes">
+      <h2>Planes disponibles</h2>
+      <p class="lead">
+        Elige el plan que mejor se adapte a tus necesidades de financiamiento o
+        adquisición.
+      </p>
+
+      <div class="models">
+        <!-- Plan 1 -->
+        <article class="card">
+          <div class="card-media">
+            <img
+              src="assets/deportivo.png"
+              alt="Plan Dinamico"
+            />
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Plan Dinamico</h3>
+            <p class="card-meta">
+              Pagos adaptables: La opción para quien vive sobre la marcha.
+            </p>
+            <ul
+              style="
+                margin: 0 0 10px 0;
+                padding-left: 18px;
+                color: var(--muted);
+                font-size: 14px;
+              "
+            >
+              <li>GPS ANTIRROBO Y BLOQUEO REMOTO DE UNIDAD.</li>
+              <li>FLEXIBILIDAD, SIN COMPROBACION ESTRICTA DE INGRESOS.</li>
+              <li>PAGOS ADAPTABLES A LA CAPACIDAD REAL.</li>
+              <li>ENFOQUE EN CONFIANZA Y RELACIÓN COMERCIAL.</li>
+              <li>PAGO MENSUAL FIJO.</li>
+            </ul>
+            <div class="card-actions">
+              <a class="btn" href="#cotiza">Solicitar</a>
+              <a class="btn outline" href="#">Detalles</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Plan 2 -->
+        <article class="card">
+          <div class="card-media">
+            <img
+              src="assets/camioneta.png"
+              alt="Plan Clásico"
+            />
+          </div>
+          <div class="card-body">
+            <div>
+              <h3 class="card-title">Plan Estandar</h3>
+              <p class="card-meta">
+                Para quienes cuidan su historial y buscan libertad de pago.
+              </p>
+              <ul
+                style="
+                  margin: 0 0 10px 0;
+                  padding-left: 18px;
+                  color: var(--muted);
+                  font-size: 14px;
+                "
+              >
+                <li>GPS ANTIRROBO Y BLOQUEO REMOTO DE UNIDAD.</li>
+                <li>FLEXIBILIDAD, SIN COMPROBACION ESTRICTA DE INGRESOS.</li>
+                <li>HISTORIAL DE PAGOS.</li>
+              </ul>
+            </div>
+            <div class="card-actions">
+              <a class="btn" href="#cotiza">Solicitar</a>
+              <a class="btn outline" href="#">Detalles</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Plan 3 -->
+        <article class="card">
+          <div class="card-media">
+            <img
+              src="assets/bocho_verde.jpg"
+              alt="Plan Clásico"
+            />
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Plan Clásico</h3>
+            <p class="card-meta">
+              La opción tradicional: evaluación crediticia y financiamiento
+              estable.
+            </p>
+            <ul
+              style="
+                margin: 0 0 10px 0;
+                padding-left: 18px;
+                color: var(--muted);
+                font-size: 14px;
+              "
+            >
+              <li>EVISIÓN DE BURO DE CRÉDITO.</li>
+              <li>GPS ANTIRROBO Y BLOQUEO REMOTO DE UNIDAD.</li>
+              <li>COMPROBACION ESTRICTA DE INGRESOS</li>
+              <li>FINANCIAMIENTO MAXIMO DE 36 MESES</li>
+            </ul>
+            <div class="card-actions">
+              <a class="btn" href="#cotiza">Solicitar</a>
+              <a class="btn outline" href="#">Detalles</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Promociones / Descubrimientos -->
+    <section class="section container" id="promos">
+      <div class="promo">
+        <div class="tile">
+          <div class="copy">
+            <h3>Bonos de temporada</h3>
+            <p>
+              Enganche y mensualidades a tu medida.
+            </p>
+            <a class="btn" href="#cotiza">Cotizar ahora</a>
+          </div>
+          <div class="media">
+            <img
+              src="assets/deportivo_2.png"
+              alt="Auto rojo en showroom"
+            />
+          </div>
+        </div>
+        <div class="tile">
+          <div class="copy">
+            <h3>Plan Empresarial</h3>
+            <p>Flotillas con mantenimiento incluido y telemetría opcional.</p>
+            <a class="btn outline" href="#contacto">Habla con ventas</a>
+          </div>
+          <div class="media">
+            <img
+              src="assets/trato.png"
+              alt="Estacionamiento corporativo nocturno"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="discover" id="descubre">
+        <div class="mini">
+          <h4>Conectividad</h4>
+          <p class="lead">Rastrea tu unidad por medio de GPS.</p>
+          <a class="btn outline" href="#">Saber más</a>
+        </div>
+        <div class="mini">
+          <h4>Seguridad</h4>
+          <p class="lead">
+            GPS: Bloquea tu unidad con una simple llamada.
+          </p>
+          <a class="btn outline" href="#">Tecnología GPS</a>
+        </div>
+        <div class="mini">
+          <h4>Garantía</h4>
+          <p class="lead">
+            Depende del plan contratado.
+          </p>
+          <a class="btn outline" href="#">Coberturas</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta container" id="cotiza">
+      <div class="cta-inner">
+        <div>
+          <h3>Agenda tu cita</h3>
+          <p>
+            Elige un plan y un asesor te contactará para confirmar fecha y
+            sucursal.
+          </p>
+          <form
+            id="testDrive"
+            onsubmit="return false"
+            style="display: grid; grid-template-columns: 2fr 2fr 1fr; gap: 10px"
+          >
+            <input
+              required
+              name="name"
+              placeholder="Nombre completo"
+              style="
+                padding: 12px;
+                border-radius: 12px;
+                border: 1px solid var(--border);
+                background: #0b0f18;
+                color: var(--text);
+              "
+            />
+            <select
+              required
+              name="model"
+              style="
+                padding: 12px;
+                border-radius: 12px;
+                border: 1px solid var(--border);
+                background: #0b0f18;
+                color: var(--text);
+              "
+            >
+              <option value="" disabled selected>Plan de interés</option>
+              <option value="Dínamico">Plan Dinamico</option>
+              <option value="Estandar">Plan Estandar</option>
+              <option value="Clasico">Plan Clasico</option>
+              <option value="Empresarial">Plan Empresarial</option>
+            </select>
+            <button class="btn" type="submit">Solicitar</button>
+          </form>
+          <small
+            id="formMsg"
+            style="display: block; margin-top: 8px; color: var(--muted)"
+          ></small>
+        </div>
+        <div>
+          <img
+            src="assets/camioneta_2.png"
+            alt="Interior de vehículo con volante y tablero digital"
+            style="
+              border-radius: 14px;
+              border: 1px solid var(--border);
+              box-shadow: var(--shadow);
+            "
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contacto">
+      <div class="container">
+        <div class="fgrid">
+          <div class="fcol">
+            <div class="brand" style="margin-bottom: 8px">
+              <span class="brand-logo" aria-hidden="true"></span>
+              <span class="brand-name">GRUPO YEKA</span>
+            </div>
+            <p style="color: var(--muted); max-width: 44ch">
+              Innovación y desempeño para tu día a día.
+            </p>
+          </div>
+          <div class="fcol">
+            <h4>Planes</h4>
+            <a href="#planes">Dínamico</a>
+            <a href="#planes">Estandar</a>
+            <a href="#planes">Clasico</a>
+          </div>
+          <div class="fcol">
+            <h4>Compra</h4>
+            <a href="#promos">Promociones</a>
+          </div>
+          <div class="fcol">
+            <h4>Soporte</h4>
+            <a href="#">Términos</a>
+            <a href="#">Privacidad</a>
+            <a href="#">Contacto</a>
+          </div>
+        </div>
+        <div class="legal">
+          <small>© <span id="year"></span> GRUPO YEKA</small>
+          <small>Todos los derechos reservados.</small>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
